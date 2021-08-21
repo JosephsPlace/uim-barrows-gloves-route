@@ -14,22 +14,23 @@ body {
 }
 .icon {
     color: #fff;
-    padding-top: 5px;
 }
 .box {
-    background-color: transparent;
+    background-color: #20212c;
     box-shadow: none;
 }
+.box:not(:last-child) {
+    margin-bottom: 1rem;
+}
 .substep-container {
-    background: #20212c;
-    margin: 20px -0.5rem -0.5rem;
-    padding: 30px;
-    border-radius: 0px 0 10px 10px;
+    padding: 5px 30px;
+}
+.substep {
+    margin-top: 15px;
 }
 .step-header {
     margin: -1.25rem;
-    padding: 1.25rem;
-    background: #2e3c52;
+    padding: .6rem 1rem;
     user-select: none;
     border-radius: 15px;
     cursor: pointer;
@@ -39,33 +40,40 @@ body {
     display: inline-block;
     margin-right: 16px;
 }
-.stylized-checkbox label > .main-step-title-text {
+.stylized-checkbox label > .main-step-title-text, .stylized-checkbox label > .substep-title-text {
     margin-left: 15px;
     display: inline-block;
 }
+
+.stylized-checkbox label > .substep-title-text {
+    display: inherit;
+}
+
 .stylized-checkbox label > span.checkbox-display {
     background-color: #fff;
-    border: 1px solid #fc76a1;
-    border-radius: 7px;
-    height: 22px;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+    height: 15px;
     left: 0;
     position: absolute;
-    top: 6px;
-    width: 22px;
+    top: 4px;
+    width: 15px;
 }
 
 .stylized-checkbox label > span.checkbox-display:after {
-    border: 2px solid #fff;
+    border: 2px solid #20212c;
     border-top: none;
     border-right: none;
     content: '';
-    height: 6px;
-    left: 4px;
+    height: 5px;
+    left: 3px;
     opacity: 0;
     position: absolute;
-    top: 3px;
-    transform: rotate(-45deg);
-    width: 12px;
+    top: 1px;
+    transform: rotate(
+            -45deg
+    );
+    width: 9px;
     margin-top: 3px;
 }
 
@@ -73,12 +81,20 @@ body {
     visibility: hidden;
 }
 
-.stylized-checkbox
+.step-header .stylized-checkbox
 input[type='checkbox']:checked
 + label
 > span.checkbox-display {
-    background-color: #fc76a1;
-    border-color: #fc76a1;
+    background-color: #91fc76;
+    border-color: #91fc76;
+}
+
+.substep-container .stylized-checkbox
+input[type='checkbox']:checked
++ label
+> span.checkbox-display {
+    background-color: #a8a8ac;
+    border-color: #a8a8ac;
 }
 
 .stylized-checkbox
@@ -86,4 +102,12 @@ input[type='checkbox']:checked
 + label
 > span.checkbox-display:after {
     opacity: 1;
+}
+
+.subtitle-subtext {
+    color: #a8a8ac;
+    padding-left:15px;
+    padding-right: 15px;
+    margin-top: 5px;
+    font-size: 90%
 }

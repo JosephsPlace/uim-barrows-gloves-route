@@ -2,7 +2,7 @@
   <div class="container">
     <div v-for="step in route.steps" :key="step" class="box">
       <div @click="toggleStepDisplay(step.unique_key)" class="step-header">
-        <div class="title is-3">
+        <div class="title is-5">
           <div class="stylized-checkbox">
             <input
               :id="'step_' + step.unique_key"
@@ -18,7 +18,7 @@
             </label>
           </div>
 
-          <div class="subtitle is-4 is-inline-block is-marginless">
+          <div class="subtitle is-6 is-inline-block is-marginless">
             {{ completed_steps[step.unique_key].substeps_completed }} /
             {{ completed_steps[step.unique_key].total_substeps }}
           </div>
@@ -44,23 +44,28 @@
         v-if="this.step_is_collapsed[step.unique_key] !== true"
         class="substep-container"
       >
-        <div v-for="(substep, substep_index) in step.substeps" :key="substep">
-          <input
-            type="checkbox"
-            @change="updateStepSelections(step.unique_key)"
-            v-model="
-              completed_steps[step.unique_key].substeps[substep.unique_key]
-            "
-          />
+        <div v-for="substep in step.substeps" :key="substep" class="substep">
+          <div class="stylized-checkbox">
+            <input
+              :id="'substep_' + substep.unique_key"
+              type="checkbox"
+              @change="updateStepSelections(step.unique_key)"
+              v-model="
+                completed_steps[step.unique_key].substeps[substep.unique_key]
+              "
+            />
+            <label :for="'substep_' + substep.unique_key">
+              <span class="checkbox-display"></span>
+              <span class="substep-title-text">
+                {{ substep.text }}
+              </span>
+            </label>
+          </div>
 
-          {{ substep_index + 1 }}: {{ substep.text }}
-          <br />
-          {{ substep.subtext }}
-          <br />
-          Substep Status:
-          {{ completed_steps[step.unique_key].substeps[substep.unique_key] }}
-          <br />
-          Example Inv Images:
+          <div class="subtitle-subtext" v-if="substep.subtext.length > 0">
+            {{ substep.subtext }}
+          </div>
+
           <inventory
             :item_data="item_data"
             :items="example_inventory[substep.unique_key]"
@@ -70,7 +75,7 @@
     </div>
 
     <div class="has-text-centered">
-      <button class="button is-primary" @click="clearStorage">
+      <button class="button is-danger" @click="clearStorage">
         Reset Progress
       </button>
     </div>
