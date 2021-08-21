@@ -62,7 +62,13 @@
             </label>
           </div>
 
-          <div class="subtitle-subtext" v-if="substep.subtext.length > 0">
+          <div
+            class="subtitle-subtext"
+            v-if="
+              typeof substep.subtext !== 'undefined' &&
+              substep.subtext.length > 0
+            "
+          >
             {{ substep.subtext }}
           </div>
 
@@ -113,13 +119,8 @@ export default {
 
     // Loop through each step and check the saved data to see if it needs to be checked off
     this.route.steps.forEach((step) => {
-      const current_step_status =
-        saved_data !== null &&
-        typeof saved_data[step.unique_key] !== 'undefined' &&
-        saved_data[step.unique_key].step_status === true
-
       this.completed_steps[step.unique_key] = {
-        step_status: current_step_status,
+        step_status: false,
         total_substeps: step.substeps.length,
         substeps_completed: 0,
         substeps: {},
@@ -169,6 +170,7 @@ export default {
         this.completed_steps[step.unique_key].substeps_completed
       ) {
         this.step_is_collapsed[step.unique_key] = true
+        this.completed_steps[step.unique_key].step_status = true
       }
     })
 
