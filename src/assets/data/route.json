@@ -1,0 +1,34 @@
+{
+  "steps": [
+    {
+      "unique_key": "4af642ad-72fe-4176-8713-1e7bf0d8f783",
+      "step_name": "Wilderness Graveyard",
+      "substeps": [
+        {
+          "unique_key": "65b166b1-bd24-49a9-b6c3-290d836d7fe1",
+          "text": "Minigame Teleport to Clan Wars",
+          "subtext": "",
+          "add_items": ["1265", "2347"]
+        },
+        {
+          "unique_key": "a155591e-f95e-400b-947c-4b66103a197c",
+          "text": "Walk to the boneyard. Pick up the south western most big bones and hop worlds. When you have a full inv, walk to the Chaos Alter. Do this under 53,400 Prayed EXP",
+          "subtext": "Approx 11-13k Exp per hour. Once you unlock protect from melee you can pick up additional bones before hopping",
+          "remove_items": ["1265"]
+        }
+      ]
+    },
+    {
+      "unique_key": "726aaaeb-b87e-442b-adf6-9a38c84481db",
+      "step_name": "Lumby",
+      "substeps": [
+        {
+          "unique_key": "9ff2c4a6-2a73-4d4b-a78c-5882f88a803e",
+          "text": "Do something here",
+          "subtext": "Subtext",
+          "add_items": ["14707"]
+        }
+      ]
+    }
+  ]
+}
