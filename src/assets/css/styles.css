@@ -18,9 +18,16 @@ body {
 .box {
     background-color: #20212c;
     box-shadow: none;
+    color: #e6e5e8;
 }
 .box:not(:last-child) {
     margin-bottom: 1rem;
+}
+.title {
+    color: #e6e5e8;
+}
+.subtitle {
+    color: #a8a8ac;
 }
 .substep-container {
     padding: 5px 30px;

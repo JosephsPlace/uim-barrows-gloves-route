@@ -27,7 +27,7 @@ export default {
   },
   props: ['items', 'item_data'],
   created() {
-    console.log(this.items)
+
   },
 }
 </script>
