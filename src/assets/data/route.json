@@ -1064,7 +1064,274 @@
         },
         {
           "unique_key": "ea572a56-9157-4d33-bf7f-7055935412ef",
-          "text": "Home teleport and go to Shanty Pass"
+          "text": "Home teleport and go to Al Kharid"
+        }
+      ]
+    },
+    {
+      "unique_key": "38ffba54-57be-4517-a301-d056e9932d53",
+      "step_name": "Desert",
+      "substeps": [
+        {
+          "unique_key": "353bd6e9-6937-4cad-93e4-0117e863c754",
+          "text": "Start The Feud and then walk to Shanty Pass"
+        },
+        {
+          "unique_key": "87ad0d27-a7cf-4068-92d3-6c3f38dade11",
+          "text": "Buy Desert Robes, a knife, 2 waterskins, 3 bronze bars, and 50 feathers. Complete Tourist Trap and drop any leftover quest supplies (keep the waterskins only). Put quest reward on Agility",
+          "subtext": "When you equip the Desert Boots you can drop whatever boots you were wearing",
+          "add_items": ["1823", "1823", "946"]
+        },
+        {
+          "unique_key": "a8677cd5-e769-4b82-9bb2-221bc123714c",
+          "text": "Take the Carpet to Pollnivneach. Buy 2 additional waterskins from the general store, fill them up at the fountain in front of the mayors office, and fill your inventory with wines from the pub",
+          "add_items": ["1823", "1823", "1993", "1993", "1993", "1993", "1993", "1993", "1993", "1993", "1993", "1993", "1993", "1993", "1993"]
+        },
+        {
+          "unique_key": "5fad9e6c-d37d-4df0-8177-10709cad69a1",
+          "text": "Take the Pollniveach carpet to Nardah and walk to the Agility Pyramid. Kill a Vulture on your way for the diary. Do Agility Pyramid until 56 Agility",
+          "subtext": "You will be restocking in Pollniveach (taking the Nardah carpet there), filling up your waterskins and buying more wine. You can increase the waterskin count to 5 or 6 as your agility level gets higher",
+          "remove_items": ["1823", "1823", "1823", "1823", "1993", "1993", "1993", "1993", "1993", "1993", "1993", "1993", "1993", "1993", "1993", "1993", "1993"]
+        },
+        {
+          "unique_key": "a99ac456-3cd4-4847-a09a-8094f108260d",
+          "text": "Use your chronicle and walk to Falador"
+        }
+      ]
+    },
+    {
+      "unique_key": "41e58102-171a-442e-b551-4aa8b08fc294",
+      "step_name": "Falador",
+      "substeps": [
+        {
+          "unique_key": "27738d0f-00c0-4784-9b25-0dba00af2b79",
+          "text": "Suicide to the White Knights in the castle and then walk back to Falador. Complete Recruitment Drive and then pick everything back up",
+          "subtext": "You will re-buy chronicle soon",
+          "add_items": ["5574"]
+        },
+        {
+          "unique_key": "b325490b-5983-4397-b77a-2cb97b927b39",
+          "text": "Walk to the Falador mine and mine 6 clay, 4 copper, and 2 iron",
+          "add_items": ["434", "434", "434","434","434","434", "436","436","436","436","440", "440"]
+        },
+        {
+          "unique_key": "3ba3f8a6-20c2-4be8-90c7-cb6d1ce6742e",
+          "text": "Complete Doric's Quest. Sell Initiate Sallet to general store on the way",
+          "remove_items": ["5574","434", "434", "434","434","434","434", "436","436","436","436","440", "440"]
+        },
+        {
+          "unique_key": "6e35a08c-acdb-45c2-8eb5-6234a6f46fcf",
+          "text": "Walk to Taverly and buy a Pestle and Mortar",
+          "add_items": ["233"]
+        },
+        {
+          "unique_key": "15adc309-22de-4773-b428-e34592019de5",
+          "text": "Home TP, walk to Draynor to re-buy Chronicle. Then walk to Edgeville"
+        }
+      ]
+    },
+    {
+      "unique_key": "1e7b852d-1f26-48a1-a1df-bd570d112ec6",
+      "step_name": "Edgeville",
+      "substeps": [
+        {
+          "unique_key": "Take the Wilderness Level to deep Wilderness and go to the Mage Arena Bank. Buy ~550 Nature Runes and ~700 Law Runes",
+          "text": "Take the Wilderness Level to deep Wilderness and go to the Mage Arena Bank. Buy ~550 Nature Runes and ~700 Law Runes. Buy 50 per world",
+          "subtext": "You are fairly low combat so this isn't super risky, but be ready to log out as soon as you see any white dots",
+          "add_items": ["561"]
+        },
+        {
+          "unique_key": "8bc7e3dc-c155-455e-a6b3-5766aaf5955b",
+          "text": "Use your Ardy Cloak teleport"
+        },
+        {
+          "unique_key": "6a0b63bb-bff0-4879-85ad-3c6304b5ed8a",
+          "text": "Walk to the general store, buy 2 ropes and 1 vial of water (empty it immediately) and then walk to the Witchhaven fishing supplies store and buy a fly fishing rod and around 400 feathers",
+          "add_items": ["954", "954", "229", "309", "314"]
+        },
+        {
+          "unique_key": "ebd3843c-f24d-45b9-a2de-2764c76d1f21",
+          "text": "TP to Varrock, buy an Air Staff from Zaff and then complete Gertrude's Cat",
+          "add_items": ["1381"]
+        },
+        {
+          "unique_key": "0270ea53-30c0-4ff2-a8d3-2f26b1ed7fe8",
+          "text": "Walk to Barbarian Village and Fly Fish / Cook until 35 fishing. Drop the fishing supplies but save ~5 fish to grow your cat",
+          "add_items": ["329","329","329","329","329"],
+          "remove_items": ["309", "314"]
+        },
+        {
+          "unique_key": "354c1627-897f-4ead-9514-c1471af46de8",
+          "text": "Minigame TP to NMZ, deposite almost all of your coins and then home TP",
+          "subtext": "You will need at least 21 GP but since NMZ coffers need to be in multiples of 1,000 this should be fine"
+        },
+        {
+          "unique_key": "2458f551-c603-4fdb-a703-6195b687b13d",
+          "text": "In Lumbridge, complete Misthalin Myster and then walk to Al Kharid"
+        }
+      ]
+    },
+    {
+      "unique_key": "7788ddcb-8a4f-4d23-8758-3007f8800aeb",
+      "step_name": "Al Kharid",
+      "substeps": [
+        {
+          "unique_key": "23a67f20-c464-426a-9b70-79242581e2ea",
+          "text": "Walk to the Al Kharid mine. If you aren't 20 mining yet, powermine iron to 20 mining"
+        },
+        {
+          "unique_key": "cfeeefab-06ca-4e4e-bb94-0c73ce90b0c0",
+          "text": "Mine 1 silver ore, then make your way back to the main Al Kharid town",
+          "add_items": ["442"]
+        },
+        {
+          "unique_key": "cd73253f-0cb7-484d-8013-1d3a66c91753",
+          "text": "In town, complete The Feud, start the Rouge Trader miniquest from Ali, buy a thread and sickle mould, create a silver sickle, and then drop unneeded supplies and walk towards the Mage Training Arena",
+          "add_items": ["1734", "2961"],
+          "remove_items": ["442"]
+        },
+        {
+          "unique_key": "9b85cb13-199d-4d60-a19f-08b3199aea66",
+          "text": "Do the Alchemy Room until 33 Magic and then move to the Telekinetic Room and do that until around 46. Your cat should be fully grown or close to it by now. Keep it following you. You can also drop your staff of air once this is complete",
+          "subtext": "You should average around 23k xp per hour and should have about 100-120 Law Runes left",
+          "remove_items": ["329","329","329","329","329", "1381"]
+        },
+        {
+          "unique_key": "62a0c605-ecbe-4099-9e6c-f2810b186008",
+          "text": "Minigame TP To NMZ and withdraw your GP"
+        },
+        {
+          "unique_key": "f7c8ab8d-4b4f-4bd9-848b-e7b47a89d66e",
+          "text": "Use your Chronicle"
+        }
+      ]
+    },
+    {
+      "unique_key": "f7c8ab8d-4b4f-4bd9-848b-e7b47a89d66e",
+      "step_name": "Varrock",
+      "substeps": [
+        {
+          "unique_key": "f7c8ab8d-4b4f-4bd9-848b-e7b47a89d66e",
+          "text": "Start Dragon Slayer"
+        },
+        {
+          "unique_key": "7911b294-a12a-482f-95fe-e4535fad842a",
+          "text": "Walk to the general store and buy a tinderbox, chisel, and if you're missing them, leather boots and gloves (drop whatever else you had equipped)",
+          "add_items": ["590", "1755"]
+        },
+        {
+          "unique_key": "66af662c-a2a1-4a80-976f-1db3beac839c",
+          "text": "Visit Aubury to continue Ali's Rogue Trader miniquest and then steal a tea from the tea stall",
+          "add_items": ["712"]
+        },
+        {
+          "unique_key": "4b08b90e-9b93-42a4-9043-09675015cd74",
+          "text": "Complete The Dig Site. Drop unneeded items kept for this quest once it's complete",
+          "remove_items": ["954", "954", "229","712"]
+        },
+        {
+          "unique_key": "a29df301-3b25-44d7-976d-df33edbc817c",
+          "text": "Walk to Canifis, picking up Wolfbane and starting Nature Spirit on the way. While here, kill a civilian with Wolfbane (then drop it), get a slayer task from Mazchna, and start Creature of Frankenstein"
+        },
+        {
+          "unique_key": "607f251c-f46e-4bcd-a29d-80412fbd179f",
+          "text": "Complete Nature Spirit. While in the swamp, kill a snail and craft a snelm for the diary. Once it's complete, pray at the altar for the diary. Drop sickle",
+          "remove_items": ["2961"]
+        },
+        {
+          "unique_key": "7beaf829-5042-487e-be1d-6537060c1533",
+          "text": "Ardy Cloak TP, drop chisel, and mine 12 coal ore",
+          "add_items": ["453","453","453","453","453","453","453","453","453","453","453","453"],
+          "remove_items": ["1755"]
+        },
+        {
+          "unique_key": "995f5867-1ac9-494f-bff2-a6bd9d8a7bff",
+          "text": "Teleport to Camelot and complete Elemental Workshop 1 and 2",
+          "subtext": "You may have to juggle some coal to get in initially",
+          "remove_items": ["1734","453","453","453","453","453","453","453","453","453","453","453","453"]
+        },
+        {
+          "unique_key": "4b415f8d-e13d-4aff-a90a-8177b87a2e0f",
+          "text": "Home TP to Lumbridge"
+        }
+      ]
+    },
+    {
+      "unique_key": "f2cc6844-ac78-4e50-b743-777df9644c2c",
+      "step_name": "Lumbridge / Zanaris",
+      "substeps": [
+        {
+          "unique_key": "7905eb0d-f57b-4e00-9e0b-76ca64027332",
+          "text": "Start Lost City. Re-obtain Ghostspeak Amulet at the start if you don't have it. Cut a willow tree in Draynor sometime during this",
+          "subtext": "When going to Entrana, buy some Crumble Undead casts from the Port Sarim rune shop, and then find a table and put all of your armor / weapons on the table. Items stay on tables for 10 minutes which is plenty of time to complete the Entrana portion of this quest. If you don't make it back in time, re-buy the Staff of Fire and other tools",
+          "add_items": ["772"]
+        },
+        {
+          "unique_key": "504497b1-282f-4d53-bc27-e9584f4b9870",
+          "text": "Before completing The Lost City, while in Draynor or near a tool leprechaun, get secateurs and a spade, dig up the Draynor Skull in Draynor Manor, and re-buy your Chronicle. Complete Lost City",
+          "add_items": ["5329","952","7408"]
+        },
+        {
+          "unique_key": "795fd791-3c3f-4c48-beff-c7afa6454eb6",
+          "text": "Complete Fairy Tale Part 1. While in Falador (while looking for farmers), go to the 2nd floor of the general store to re-buy Ardy Cloak from Perdo",
+          "subtext": "Assuming your 3 items are obtainable, just get them now. It may be inefficient but getting this overwith is important",
+          "add_items": ["7409"],
+          "remove_items": ["5329", "7408"]
+        },
+        {
+          "unique_key": "c22ad2ac-bb8f-4712-9844-666f71db30a5",
+          "text": "Start Fairy Tale Part 2. While waiting for Martin, buy a rainbow scarf (drop the ghost speak amulet) visit a tool leprechaun and deposit your spade / secateurs, complete Corsair Cove, and buy a small fishing net",
+          "add_items": ["303"],
+          "remove_items": ["7409", "952"]
+        },
+        {
+          "unique_key": "dac97f74-7405-4169-a2a9-a1f9c6e79e8c",
+          "text": "Unlock Fairy Rings then complete these Fairy Ring diary steps: BIS, ALS, CIR, AIR"
+        },
+        {
+          "unique_key": "c5f96dfd-fff2-465a-b0eb-2166c075a2c3",
+          "text": "Use Fairy Ring code CKR and fishing a decent stack of Raw karambwanji. Drop net afterwards. You will be growing / handing in cats from here on out",
+          "add_items": ["3150"],
+          "remove_items": ["303"]
+        },
+        {
+          "unique_key": "99e78013-22f0-43e2-b219-d71ea79ecf72",
+          "text": "Teleport to Falador and go to the Dwarven Mines (near the pickaxe shop). Here, mine and superheat iron, smithing it on the anvils to 40 smithing, then powermin iron to 40 mining",
+          "subtext": "You can upgrade your pickaxe to make this go faster, but since we'll be dropping it for Wintertodt, I wouldn't go higher than mithril"
+        }
+      ]
+    },
+    {
+      "unique_key": "a7980057-78d6-4255-83fa-447bef3cec4c",
+      "step_name": "Wintertodt - WIP",
+      "substeps": [
+        {
+          "unique_key": "71ff3e47-5b9e-4e84-bd6c-a3b2acccd922",
+          "text": "Gear Up",
+          "subtext": "Drop all unnecessary items, get a looting bag, and this is when you want to try to get your rune pouch, collect Clue Hunter gloves / boots",
+          "add_items": ["12791", "11941"],
+          "remove_items": ["1265", "558", "563", "561", "6424", "557", "1925"]
+        },
+        {
+          "unique_key": "c4bf363d-3e90-4b0d-a392-36212d117c9f",
+          "text": "Create a Games Necklace",
+          "subtext": "Home TP, walk to Al Kharid, mine 1 gold ore and pick up the water rune spawn. Walk to the town, buy a sapphire from the gem shop, buy 1 cosmic from Ali, buy a necklace mould, and then create / enchant the necklace. Up to you if you keep this in your inventory or not during the solo"
+        },
+        {
+          "unique_key": "564fd8b1-b078-4181-a2bb-7ca42a652d38",
+          "text": "Do Wintertodt until you get 12 Magic Logs. Fill looting bag at Feropx Enclave (if that update is finally out yet) and games necklace back to Wintertodt. Your Pineapples will be your main source of food",
+          "subtext": "Soloing is the preferred method because you want the construction level, but it isn't required. We will be getting more early construction XP a different way"
+        }
+      ]
+    },
+    {
+      "unique_key": "50adee2b-09b3-4dd8-8e6d-329288ea984e",
+      "step_name": "Tempoross - WIP",
+      "substeps": [
+        {
+          "unique_key": "50adee2b-09b3-4dd8-8e6d-329288ea984e",
+          "text": "GOAL: To get enough planks for 54+ construction and a decent amount of fishing / cooking levels (from the raw fish rewards)",
+          "subtext": ""
         }
       ]
     }
